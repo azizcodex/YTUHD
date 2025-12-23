@@ -2,7 +2,9 @@
 #import <sys/sysctl.h>
 #import <version.h>
 #import "Header.h"
-
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#include <string.h>
 extern "C" {
     BOOL UseVP9();
     BOOL AllVP9();
