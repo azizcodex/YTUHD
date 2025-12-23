@@ -1,5 +1,6 @@
-#import <Foundation/Foundation.h>
-#import <string.h>
+@import Foundation;
+@import UIKit;
+#include <string.h>
 #import <substrate.h>
 #import <sys/sysctl.h>
 #import <version.h>
